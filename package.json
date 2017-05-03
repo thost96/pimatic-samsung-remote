@@ -1,0 +1,32 @@
+{
+  "name": "pimatic-samsung-remote",
+  "description": "Control your Samsung TV via Pimatic",
+  "author": "Thorsten Reichelt (thost96) <info@thorstenreichelt.de>",
+  "main": "samsung-remote",
+  "files": [
+    "samsung-remote-config-schema.coffee",
+    "samsung-remote.coffee",
+    "device-config-schema.coffee",
+    "README.md",
+    "HISTORY.md",
+    "LICENSE"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://github.com/thost96/",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thost96/pimatic-samsung-remote.git"
+  },
+  "configSchema": "samsung-remote-config-schema.coffee",
+  "dependencies": {
+    "samsung-remote": "^1.2.5"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
