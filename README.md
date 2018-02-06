@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/pimatic-samsung-remote.svg)](http://badge.fury.io/js/pimatic-samsung-remote)
 [![dependencies status](https://david-dm.org/thost96/pimatic-samsung-remote/status.svg)](https://david-dm.org/thost96/pimatic-samsung-remote)
+[![Build Status](https://travis-ci.org/thost96/pimatic-samsung-remote.svg?branch=master)](https://travis-ci.org/thost96/pimatic-samsung-remote)
 
 A pimatic plugin to control your Samsung TV.
 
